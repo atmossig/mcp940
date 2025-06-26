@@ -12,6 +12,9 @@
 #ifndef INC_CORE_CONFIG_H_
 #define INC_CORE_CONFIG_H_
 
+#define MC_BEGIN_NAMESPACE namespace mc {
+#define MC_END_NAMESPACE }
+
 // Platform detection
 #if defined(_WIN32) || defined(_WIN64)
 #define MC_WINDOWS
